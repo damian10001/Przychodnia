@@ -32,6 +32,9 @@
           <actionMethod actionName="index"/>
           <actionMethod actionName="show"/>
         </controllerFile>
+        <controllerFile controllerName="GodzinyPrzyjec">
+          <actionMethod actionName="index"/>
+        </controllerFile>
       </controllersDirectory>
       <formsDirectory enabled="false"/>
       <layoutsDirectory>
@@ -90,6 +93,9 @@
           <viewControllerScriptsDirectory forControllerName="HistoriaChoroby">
             <viewScriptFile forActionName="show"/>
           </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="GodzinyPrzyjec">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>
         <viewFiltersDirectory enabled="false"/>
@@ -146,6 +152,9 @@
           <testApplicationControllerFile forControllerName="Wizyta">
             <testApplicationActionMethod forActionName="index"/>
             <testApplicationActionMethod forActionName="show"/>
+          </testApplicationControllerFile>
+          <testApplicationControllerFile forControllerName="GodzinyPrzyjec">
+            <testApplicationActionMethod forActionName="index"/>
           </testApplicationControllerFile>
         </testApplicationControllerDirectory>
       </testApplicationDirectory>
