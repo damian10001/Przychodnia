@@ -1,0 +1,21 @@
+body {
+    background: white;
+    color: black;
+    font-family: Georgia, serif;
+}
+
+#pojemnik {
+}
+
+#naglowek {
+    display: none;
+}
+
+#tekst {
+    display: block;
+
+}
+
+#dol {
+    display: none;
+}

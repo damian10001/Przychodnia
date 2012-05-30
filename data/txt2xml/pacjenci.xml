@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pacjenci>
+    <pacjent>
+        <imie>Andrzej</imie>
+        <nazwisko>Witkowski</nazwisko>
+        <email>andrzej.witkowski@gmail.pl</email>
+        <pesel>14725836901</pesel>
+        <nr_ubezpieczenia>u0001</nr_ubezpieczenia>
+        <adres>Kraków, ul. Budryka 1</adres>
+        <telefon>456982317</telefon>
+    </pacjent>
+    <pacjent>
+        <imie>Beata</imie>
+        <nazwisko>Zielińska</nazwisko>
+        <email>beata.zielinska@gmail.pl</email>
+        <pesel>47258369014</pesel>
+        <nr_ubezpieczenia>u0009</nr_ubezpieczenia>
+        <adres>Kraków, ul. Krowoderska 13</adres>
+        <telefon>158743682</telefon>
+    </pacjent>
+    <pacjent>
+        <imie>Czesław</imie>
+        <nazwisko>Mikula</nazwisko>
+        <email>czeslaw.mikula@gmail.pl</email>
+        <pesel>72583697410</pesel>
+        <nr_ubezpieczenia>u0002</nr_ubezpieczenia>
+        <adres>Kraków, ul. Prądnicka 8</adres>
+        <telefon>201478206</telefon>
+    </pacjent>
+    <pacjent>
+        <imie>Dominika</imie>
+        <nazwisko>Popiel</nazwisko>
+        <email>dominika.popiel@gmail.pl</email>
+        <pesel>25896354685</pesel>
+        <nr_ubezpieczenia>u0003</nr_ubezpieczenia>
+        <adres>Kraków, ul. Lekarska 9</adres>
+        <telefon>954710235</telefon>
+    </pacjent>
+    <pacjent>
+        <imie>Katarzyna</imie>
+        <nazwisko>Juszczak</nazwisko>
+        <email>katarzyna.juszczak@gmail.pl</email>
+        <pesel>94238510753</pesel>
+        <nr_ubezpieczenia>u0010</nr_ubezpieczenia>
+        <adres>Kraków, ul. Kluczborska 17</adres>
+        <telefon>957123058</telefon>
+    </pacjent>
+    <pacjent>
+        <imie>Szczepan</imie>
+        <nazwisko>Cieślak</nazwisko>
+        <email>szczepan.cieslak@gmail.pl</email>
+        <pesel>842695713025</pesel>
+        <nr_ubezpieczenia>u0007</nr_ubezpieczenia>
+        <adres>Kraków, ul. Wybickiego 19</adres>
+        <telefon>751035108</telefon>
+    </pacjent>
+    <pacjent>
+        <imie>Kazimierz</imie>
+        <nazwisko>Hankiewicz</nazwisko>
+        <email>kazimierz.hankiewicz@gmail.pl</email>
+        <pesel>75321598700</pesel>
+        <nr_ubezpieczenia>u0008</nr_ubezpieczenia>
+        <adres>Kraków, ul. Nowohucka 89</adres>
+        <telefon>123854702</telefon>
+    </pacjent>
+    <pacjent>
+        <imie>Włodzimierz</imie>
+        <nazwisko>Lech</nazwisko>
+        <email>wlodzimierz.lech@gmail.pl</email>
+        <pesel>51478563201</pesel>
+        <nr_ubezpieczenia>u0006</nr_ubezpieczenia>
+        <adres>Kraków, ul. Mogilska 55</adres>
+        <telefon>910257048</telefon>
+    </pacjent>
+    <pacjent>
+        <imie>Urszula</imie>
+        <nazwisko>Nowak</nazwisko>
+        <email>urszula.nowak@gmail.pl</email>
+        <pesel>45621798521</pesel>
+        <nr_ubezpieczenia>u0005</nr_ubezpieczenia>
+        <adres>Kraków, ul. Lubicz 21</adres>
+        <telefon>654108957</telefon>
+    </pacjent>
+    <pacjent>
+        <imie>Natalia</imie>
+        <nazwisko>Rybak</nazwisko>
+        <email>natalia.rybak@gmail.pl</email>
+        <pesel>79315024865</pesel>
+        <nr_ubezpieczenia>u0004</nr_ubezpieczenia>
+        <adres>Kraków, ul. Basztowa 33</adres>
+        <telefon>928453175</telefon>
+    </pacjent>
+</pacjenci>

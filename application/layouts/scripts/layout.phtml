@@ -1,0 +1,28 @@
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+  <head>
+    <?php echo $this->headTitle($this->tytul) ?>
+    <?php echo $this->headLink() ?>
+    <?php echo $this->headScript() ?>
+    <?php echo $this->headMeta() ?>
+  </head>
+<body>
+
+<div id="pojemnik">
+  <h1 id="naglowek">Wirtualna Przychodnia</h1>
+  <ol id="menuglowne">
+        <li><a href="<?php echo $this->url(array(), 'home') ?>">Strona Główna</a></li>
+        <li><a href="<?php echo $this->url(array(), 'specjalizacja_index') ?>">Specjalizacje</a></li>
+        <li><a href="<?php echo $this->url(array(), 'lekarz_index') ?>">Lekarze</a></li>
+        <li><a href="#">Godziny Przyjęć</a></li>
+        <li><a href="<?php echo $this->url(array(), 'pacjent_index') ?>">Pacjenci</a></li>
+
+    </ol>
+  <div id="tekst">
+    <?php echo $this->layout()->content; ?>
+  </div>
+  <div id="dol">Copyright &copy; 2012 Tomasz Kucwaj</div>
+</div>
+
+</body>
+</html>

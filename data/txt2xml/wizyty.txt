@@ -1,0 +1,10 @@
+2011-03-05| 08:30| Opis...| Recepta...| Tak| Adam| Boski| adam.boski@przychodnia.com| 12345678901| Czesław| Mikula| czeslaw.mikula@gmail.pl| 72583697410
+2011-04-06| 09:00| Opis...| Recepta...| Tak| Edmund| Grochowski| edmund.grochowski@przychodnia.com| 56789012345| Szczepan| Cieślak| szczepan.cieslak@gmail.pl| 842695713025
+2011-05-08| 10:00| Opis...| Recepta...| Tak| Hanna| Król| hanna.krol@przychodnia.com| 89012345678| Urszula| Nowak| urszula.nowak@gmail.pl| 45621798521
+2011-07-15| 12:30| Opis...| Recepta...| Tak| Adam| Boski| adam.boski@przychodnia.com| 12345678901| Andrzej| Witkowski| andrzej.witkowski@gmail.pl| 14725836901
+2011-09-23| 15:00| Opis...| Recepta...| Tak| Filip| Duda| filip.duda@przychodnia.com| 67890123456| Katarzyna| Juszczak| katarzyna.juszczak@gmail.pl| 94238510753
+2012-02-23| 12:00| Opis...| Recepta...| Tak| Grażyna| Kozak| grazyna.kozak@przychodnia.com| 78901234567| Natalia| Rybak| natalia.rybak@gmail.pl|79315024865
+2012-04-18| 18:00| Opis...| Recepta...| Tak| Bożena| Ciekawa| bozena.ciekawa@przychodnia.com| 23456789012| Włodzimierz| Lech| wlodzimierz.lech@gmail.pl| 51478563201
+2012-06-15| 11:30| Opis...| Recepta...| Nie| Dariusz| Gąska| dariusz.gaska@przychodnia.com| 45678901234| Szczepan| Cieślak| szczepan.cieslak@gmail.pl| 842695713025
+2012-07-01| 09:00| Opis...| Recepta...| Nie| Bożena| Ciekawa| bozena.ciekawa@przychodnia.com| 23456789012| Dominika| Popiel| dominika.popiel@gmail.pl| 25896354685
+2012-10-15| 19:00| Opis...| Recepta...| Nie| Ilona| Skoczek| ilona.skoczek@przychodnia.com| 90123456789| Beata| Zielińska| beata.zielinska@gmail.pl| 47258369014

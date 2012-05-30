@@ -1,0 +1,69 @@
+body {
+    background: #e8edef url('../images/gora.png') repeat-x;
+    margin: 0;
+font-family: Georgia, serif;
+
+
+}
+
+#pojemnik {
+    width: 1000px;
+    background: url('../images/pojemnik.png') repeat-y;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+#naglowek {
+    height: 120px;
+    width: 1000px;
+    margin: 0;
+    padding-top: 85px;
+    background: url('../images/naglowek.png') no-repeat;
+    text-indent: 9.5em;
+
+}
+
+#tekst {
+    padding: 0px 150px;
+    line-height: 160%;
+    width: 700px;
+}
+
+#dol {
+    height: 80px;
+    width: 1000px;
+    background: url('../images/stopka.png') no-repeat;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+#menuglowne {
+    margin: 0;
+    list-style: none;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    
+    padding-bottom: 50px;
+
+}
+#menuglowne li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+#menuglowne li a {
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    white-space: nowrap;
+    color: black;
+}
+
+#menuglowne li a:hover {
+    text-decoration: underline;
+    color: blue;
+}

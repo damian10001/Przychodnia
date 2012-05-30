@@ -1,0 +1,10 @@
+Andrzej| Witkowski| andrzej.witkowski@gmail.pl| 14725836901| u0001| Kraków, ul. Budryka 1| 456982317
+Beata| Zielińska| beata.zielinska@gmail.pl| 47258369014| u0009| Kraków, ul. Krowoderska 13| 158743682
+Czesław| Mikula| czeslaw.mikula@gmail.pl| 72583697410| u0002| Kraków, ul. Prądnicka 8| 201478206
+Dominika| Popiel| dominika.popiel@gmail.pl| 25896354685| u0003| Kraków, ul. Lekarska 9| 954710235
+Katarzyna| Juszczak| katarzyna.juszczak@gmail.pl| 94238510753| u0010| Kraków, ul. Kluczborska 17| 957123058
+Szczepan| Cieślak| szczepan.cieslak@gmail.pl| 842695713025| u0007| Kraków, ul. Wybickiego 19| 751035108
+Kazimierz| Hankiewicz| kazimierz.hankiewicz@gmail.pl| 75321598700| u0008| Kraków, ul. Nowohucka 89| 123854702
+Włodzimierz| Lech| wlodzimierz.lech@gmail.pl| 51478563201| u0006| Kraków, ul. Mogilska 55| 910257048
+Urszula| Nowak| urszula.nowak@gmail.pl| 45621798521| u0005| Kraków, ul. Lubicz 21| 654108957
+Natalia| Rybak| natalia.rybak@gmail.pl|79315024865| u0004| Kraków, ul. Basztowa 33| 928453175

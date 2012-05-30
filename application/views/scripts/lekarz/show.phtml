@@ -1,0 +1,19 @@
+<p>
+    Imię: <?php echo $this->lekarz->imie; ?><br />
+    Nazwisko: <?php echo $this->lekarz->nazwisko; ?><br />
+    Nr gabinetu: <?php echo $this->lekarz->nr_gabinetu; ?><br />
+    Specjalizacje: <br />
+    <?php foreach ($this->lekarz->getSpecjalizacje() as $specjalizacja): ?>
+        <span style="margin-left: 30px;">
+    	<a href="<?php echo $this->url(array('slug' => $specjalizacja['slug']), 'specjalizacja_show') ?>">
+		<?php echo $specjalizacja ?>
+    	</a>
+        </span><br />
+    <?php endforeach; ?>
+    Nr telefonu: <?php echo $this->lekarz->telefon; ?><br />
+    Adres: <?php echo $this->lekarz->adres; ?><br />
+    E-mail: <?php echo $this->lekarz->email; ?><br />
+</p>
+<p style="text-align: right;">
+    <a href="<?php echo $this->url(array(), 'lekarz_index') ?>">Powrót do listy</a>
+</p>

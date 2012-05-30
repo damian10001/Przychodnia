@@ -1,0 +1,10 @@
+Przeziębienie| Opis... | 2011-01-02| Dominika| Popiel| dominika.popiel@gmail.pl| 25896354685
+Katar| Opis... | 2011-03-04| Włodzimierz| Lech| wlodzimierz.lech@gmail.pl| 51478563201
+Grypa| Opis... | 2011-05-06| Katarzyna| Juszczak| katarzyna.juszczak@gmail.pl| 94238510753
+Zapalenie ucha środkowego| Opis... | 2011-07-08| Urszula| Nowak| urszula.nowak@gmail.pl| 45621798521
+Gangrena| Opis... | 2011-09-10| Szczepan| Cieślak| szczepan.cieslak@gmail.pl| 842695713025
+Zapalenie płuc| Opis... | 2011-11-12| Andrzej| Witkowski| andrzej.witkowski@gmail.pl| 14725836901
+Malaria| Opis... | 2011-12-13| Natalia| Rybak| natalia.rybak@gmail.pl|79315024865
+Zawał mięśnia sercowego| Opis... | 2012-01-14| Beata| Zielińska| beata.zielinska@gmail.pl| 47258369014
+Migrena| Opis... | 2012-02-15| Kazimierz| Hankiewicz| kazimierz.hankiewicz@gmail.pl| 75321598700
+Udar mózgu| Opis... | 2012-03-16| Czesław| Mikula| czeslaw.mikula@gmail.pl| 72583697410

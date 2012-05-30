@@ -1,0 +1,3 @@
+2012-01-01| 08:53| Informacja 1| Treść informacji 1.| admin
+2012-02-02| 09:54| Informacja 2| Treść informacji 2.| admin
+2012-03-03| 10:55| Informacja 3| Treść informacji 3.| admin

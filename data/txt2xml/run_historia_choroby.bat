@@ -1,0 +1,1 @@
+php -f konwerter_historia_choroby.php

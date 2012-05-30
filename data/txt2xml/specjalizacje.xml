@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specjalizacje>
+    <specjalizacja>
+        <nazwa>onkolog</nazwa>
+        <lekarz>
+            <imie>Adam</imie>
+            <nazwisko>Boski</nazwisko>
+            <email>adam.boski@przychodnia.com</email>
+            <pesel>12345678901</pesel>
+            <adres>Kraków, ul. Czarnowiejska 3</adres>
+            <telefon>123-456-789</telefon>
+            <nr_gabinetu>1</nr_gabinetu>
+        </lekarz>
+    </specjalizacja>
+    <specjalizacja>
+        <nazwa>pediatra</nazwa>
+        <lekarz>
+            <imie>Bożena</imie>
+            <nazwisko>Ciekawa</nazwisko>
+            <email>bozena.ciekawa@przychodnia.com</email>
+            <pesel>23456789012</pesel>
+            <adres>Kraków, ul. Kawiory 10</adres>
+            <telefon>234-567-890</telefon>
+            <nr_gabinetu>2</nr_gabinetu>
+        </lekarz>
+    </specjalizacja>
+    <specjalizacja>
+        <nazwa>psycholog</nazwa>
+        <lekarz>
+            <imie>Celina</imie>
+            <nazwisko>Adamczyk</nazwisko>
+            <email>celina.adamczyk@przychodnia.com</email>
+            <pesel>34567890123</pesel>
+            <adres>Kraków, ul. Nawojki 27</adres>
+            <telefon>345-678-901</telefon>
+            <nr_gabinetu>3</nr_gabinetu>
+        </lekarz>
+    </specjalizacja>
+    <specjalizacja>
+        <nazwa>psychiatra</nazwa>
+        <lekarz>
+            <imie>Dariusz</imie>
+            <nazwisko>Gąska</nazwisko>
+            <email>dariusz.gaska@przychodnia.com</email>
+            <pesel>45678901234</pesel>
+            <adres>Kraków, ul. Rostafińskiego 18</adres>
+            <telefon>456-789-012</telefon>
+            <nr_gabinetu>4</nr_gabinetu>
+        </lekarz>
+    </specjalizacja>
+    <specjalizacja>
+        <nazwa>okulista</nazwa>
+        <lekarz>
+            <imie>Edmund</imie>
+            <nazwisko>Grochowski</nazwisko>
+            <email>edmund.grochowski@przychodnia.com</email>
+            <pesel>56789012345</pesel>
+            <adres>Kraków, ul. Królewska 53</adres>
+            <telefon>567-890-123</telefon>
+            <nr_gabinetu>5</nr_gabinetu>
+        </lekarz>
+    </specjalizacja>
+    <specjalizacja>
+        <nazwa>neurolog</nazwa>
+        <lekarz>
+            <imie>Filip</imie>
+            <nazwisko>Duda</nazwisko>
+            <email>filip.duda@przychodnia.com</email>
+            <pesel>67890123456</pesel>
+            <adres>Kraków, ul. Kazimierza Wielkiego 34</adres>
+            <telefon>678-901-234</telefon>
+            <nr_gabinetu>6</nr_gabinetu>
+        </lekarz>
+    </specjalizacja>
+    <specjalizacja>
+        <nazwa>laryngolog</nazwa>
+        <lekarz>
+            <imie>Grażyna</imie>
+            <nazwisko>Kozak</nazwisko>
+            <email>grazyna.kozak@przychodnia.com</email>
+            <pesel>78901234567</pesel>
+            <adres>Kraków, ul. Podgórska 12</adres>
+            <telefon>789-012-345</telefon>
+            <nr_gabinetu>7</nr_gabinetu>
+        </lekarz>
+    </specjalizacja>
+    <specjalizacja>
+        <nazwa>ginekolog</nazwa>
+        <lekarz>
+            <imie>Hanna</imie>
+            <nazwisko>Król</nazwisko>
+            <email>hanna.krol@przychodnia.com</email>
+            <pesel>89012345678</pesel>
+            <adres>Kraków, ul. Adama Chmiela 15</adres>
+            <telefon>890-123-456</telefon>
+            <nr_gabinetu>8</nr_gabinetu>
+        </lekarz>
+    </specjalizacja>
+    <specjalizacja>
+        <nazwa>pediatra</nazwa>
+        <lekarz>
+            <imie>Ilona</imie>
+            <nazwisko>Skoczek</nazwisko>
+            <email>ilona.skoczek@przychodnia.com</email>
+            <pesel>90123456789</pesel>
+            <adres>Kraków, ul. Juliusza Lea 5</adres>
+            <telefon>901-234-567</telefon>
+            <nr_gabinetu>9</nr_gabinetu>
+        </lekarz>
+    </specjalizacja>
+    <specjalizacja>
+        <nazwa>neurolog</nazwa>
+        <lekarz>
+            <imie>Adam</imie>
+            <nazwisko>Boski</nazwisko>
+            <email>adam.boski@przychodnia.com</email>
+            <pesel>12345678901</pesel>
+            <adres>Kraków, ul. Czarnowiejska 3</adres>
+            <telefon>123-456-789</telefon>
+            <nr_gabinetu>1</nr_gabinetu>
+        </lekarz>
+    </specjalizacja>
+</specjalizacje>

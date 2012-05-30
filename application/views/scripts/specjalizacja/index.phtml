@@ -1,0 +1,10 @@
+<p>Specjalizacje wszystkich lekarzy</p>
+<ul>
+    <?php foreach($this->specjalizacja as $specjalizacja): ?>
+    <li>
+	<a href="<?php echo $this->url(array('slug' => $specjalizacja['slug']), 'specjalizacja_show') ?>">
+		<?php echo $specjalizacja; ?>
+    	</a>
+    </li>
+    <?php endforeach; ?>
+</ul>

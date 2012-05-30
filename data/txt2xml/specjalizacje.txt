@@ -1,0 +1,10 @@
+onkolog| Adam| Boski| adam.boski@przychodnia.com| 12345678901| Kraków, ul. Czarnowiejska 3| 123-456-789| 1
+pediatra| Bożena| Ciekawa| bozena.ciekawa@przychodnia.com| 23456789012| Kraków, ul. Kawiory 10| 234-567-890| 2
+psycholog| Celina| Adamczyk| celina.adamczyk@przychodnia.com| 34567890123| Kraków, ul. Nawojki 27| 345-678-901| 3
+psychiatra| Dariusz| Gąska| dariusz.gaska@przychodnia.com| 45678901234| Kraków, ul. Rostafińskiego 18| 456-789-012| 4
+okulista| Edmund| Grochowski| edmund.grochowski@przychodnia.com| 56789012345| Kraków, ul. Królewska 53| 567-890-123| 5
+neurolog| Filip| Duda| filip.duda@przychodnia.com| 67890123456| Kraków, ul. Kazimierza Wielkiego 34| 678-901-234| 6
+laryngolog| Grażyna| Kozak| grazyna.kozak@przychodnia.com| 78901234567| Kraków, ul. Podgórska 12| 789-012-345| 7
+ginekolog| Hanna| Król| hanna.krol@przychodnia.com| 89012345678| Kraków, ul. Adama Chmiela 15| 890-123-456| 8
+pediatra| Ilona| Skoczek| ilona.skoczek@przychodnia.com| 90123456789| Kraków, ul. Juliusza Lea 5| 901-234-567| 9
+neurolog| Adam| Boski| adam.boski@przychodnia.com| 12345678901| Kraków, ul. Czarnowiejska 3| 123-456-789| 1

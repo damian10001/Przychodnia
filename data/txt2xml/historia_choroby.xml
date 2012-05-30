@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<historie_chorob>
+    <historia_choroby>
+        <nazwa>Przeziębienie</nazwa>
+        <opis_choroby>Opis... </opis_choroby>
+        <data>2011-01-02</data>
+        <pacjent>
+            <imie>Dominika</imie>
+            <nazwisko>Popiel</nazwisko>
+            <email>dominika.popiel@gmail.pl</email>
+            <pesel>25896354685</pesel>
+        </pacjent>
+    </historia_choroby>
+    <historia_choroby>
+        <nazwa>Katar</nazwa>
+        <opis_choroby>Opis... </opis_choroby>
+        <data>2011-03-04</data>
+        <pacjent>
+            <imie>Włodzimierz</imie>
+            <nazwisko>Lech</nazwisko>
+            <email>wlodzimierz.lech@gmail.pl</email>
+            <pesel>51478563201</pesel>
+        </pacjent>
+    </historia_choroby>
+    <historia_choroby>
+        <nazwa>Grypa</nazwa>
+        <opis_choroby>Opis... </opis_choroby>
+        <data>2011-05-06</data>
+        <pacjent>
+            <imie>Katarzyna</imie>
+            <nazwisko>Juszczak</nazwisko>
+            <email>katarzyna.juszczak@gmail.pl</email>
+            <pesel>94238510753</pesel>
+        </pacjent>
+    </historia_choroby>
+    <historia_choroby>
+        <nazwa>Zapalenie ucha środkowego</nazwa>
+        <opis_choroby>Opis... </opis_choroby>
+        <data>2011-07-08</data>
+        <pacjent>
+            <imie>Urszula</imie>
+            <nazwisko>Nowak</nazwisko>
+            <email>urszula.nowak@gmail.pl</email>
+            <pesel>45621798521</pesel>
+        </pacjent>
+    </historia_choroby>
+    <historia_choroby>
+        <nazwa>Gangrena</nazwa>
+        <opis_choroby>Opis... </opis_choroby>
+        <data>2011-09-10</data>
+        <pacjent>
+            <imie>Szczepan</imie>
+            <nazwisko>Cieślak</nazwisko>
+            <email>szczepan.cieslak@gmail.pl</email>
+            <pesel>842695713025</pesel>
+        </pacjent>
+    </historia_choroby>
+    <historia_choroby>
+        <nazwa>Zapalenie płuc</nazwa>
+        <opis_choroby>Opis... </opis_choroby>
+        <data>2011-11-12</data>
+        <pacjent>
+            <imie>Andrzej</imie>
+            <nazwisko>Witkowski</nazwisko>
+            <email>andrzej.witkowski@gmail.pl</email>
+            <pesel>14725836901</pesel>
+        </pacjent>
+    </historia_choroby>
+    <historia_choroby>
+        <nazwa>Malaria</nazwa>
+        <opis_choroby>Opis... </opis_choroby>
+        <data>2011-12-13</data>
+        <pacjent>
+            <imie>Natalia</imie>
+            <nazwisko>Rybak</nazwisko>
+            <email>natalia.rybak@gmail.pl</email>
+            <pesel>79315024865</pesel>
+        </pacjent>
+    </historia_choroby>
+    <historia_choroby>
+        <nazwa>Zawał mięśnia sercowego</nazwa>
+        <opis_choroby>Opis... </opis_choroby>
+        <data>2012-01-14</data>
+        <pacjent>
+            <imie>Beata</imie>
+            <nazwisko>Zielińska</nazwisko>
+            <email>beata.zielinska@gmail.pl</email>
+            <pesel>47258369014</pesel>
+        </pacjent>
+    </historia_choroby>
+    <historia_choroby>
+        <nazwa>Migrena</nazwa>
+        <opis_choroby>Opis... </opis_choroby>
+        <data>2012-02-15</data>
+        <pacjent>
+            <imie>Kazimierz</imie>
+            <nazwisko>Hankiewicz</nazwisko>
+            <email>kazimierz.hankiewicz@gmail.pl</email>
+            <pesel>75321598700</pesel>
+        </pacjent>
+    </historia_choroby>
+    <historia_choroby>
+        <nazwa>Udar mózgu</nazwa>
+        <opis_choroby>Opis... </opis_choroby>
+        <data>2012-03-16</data>
+        <pacjent>
+            <imie>Czesław</imie>
+            <nazwisko>Mikula</nazwisko>
+            <email>czeslaw.mikula@gmail.pl</email>
+            <pesel>72583697410</pesel>
+        </pacjent>
+    </historia_choroby>
+</historie_chorob>

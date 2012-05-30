@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informacje>
+    <informacja>
+        <data>2012-01-01</data>
+        <czas>08:53</czas>
+        <tytul>Informacja 1</tytul>
+        <tresc>Treść informacji 1.</tresc>
+        <autor>admin</autor>
+    </informacja>
+    <informacja>
+        <data>2012-02-02</data>
+        <czas>09:54</czas>
+        <tytul>Informacja 2</tytul>
+        <tresc>Treść informacji 2.</tresc>
+        <autor>admin</autor>
+    </informacja>
+    <informacja>
+        <data>2012-03-03</data>
+        <czas>10:55</czas>
+        <tytul>Informacja 3</tytul>
+        <tresc>Treść informacji 3.</tresc>
+        <autor>admin</autor>
+    </informacja>
+</informacje>

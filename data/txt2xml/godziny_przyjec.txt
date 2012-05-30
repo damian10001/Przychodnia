@@ -1,0 +1,12 @@
+Adam| Boski| adam.boski@przychodnia.com| 12345678901| Poniedziałek| 7:00| 15:00
+Ilona| Skoczek| ilona.skoczek@przychodnia.com| 90123456789| Poniedziałek| 15:00| 20:00
+Celina| Adamczyk| celina.adamczyk@przychodnia.com| 34567890123| Wtorek| 8:00| 15:00
+Bożena| Ciekawa| bozena.ciekawa@przychodnia.com| 23456789012| Wtorek| 14:00| 20:00
+Dariusz| Gąska| dariusz.gaska@przychodnia.com| 45678901234| Wtorek| 10:00| 17:00
+Filip| Duda| filip.duda@przychodnia.com| 67890123456| Środa| 7:30| 14:30
+Ilona| Skoczek| ilona.skoczek@przychodnia.com| 90123456789| Środa| 15:00| 18:00
+Grażyna| Kozak| grazyna.kozak@przychodnia.com| 78901234567| Czwartek| 7:00| 15:00
+Hanna| Król| hanna.krol@przychodnia.com| 89012345678| Czwartek| 15:00| 20:00
+Bożena| Ciekawa| bozena.ciekawa@przychodnia.com| 23456789012| Piątek| 7:30| 14:30
+Edmund| Grochowski| edmund.grochowski@przychodnia.com| 56789012345| Piątek| 14:00| 20:00
+Celina| Adamczyk| celina.adamczyk@przychodnia.com| 34567890123| Sobota| 9:00| 16:00

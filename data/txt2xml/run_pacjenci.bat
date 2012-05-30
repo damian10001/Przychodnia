@@ -1,0 +1,1 @@
+php -f konwerter_pacjenci.php

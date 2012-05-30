@@ -1,0 +1,18 @@
+<div style="float: left; width: 700px; text-align: center;">
+    <h2>Witaj w Wirtualnej Przychodni</h2>
+</div>
+<p>&nbsp;</p>
+<h3>Aktualności</h3>
+
+<?php foreach ($this->informacje as $informacja): ?>
+    <p><strong><?php echo $informacja->tytul; ?></strong><br />
+	<?php echo $informacja->tresc; ?><br />
+        <span style="color: graytext; font-size: 12px; margin-right: 20px;" >
+	    <?php echo $informacja->autor; ?>
+        </span>
+	<span style="color: graytext; font-size: 12px;" >
+	    <?php echo $informacja->data; ?>
+        </span>
+    </p>
+    <hr>
+<?php endforeach; ?>

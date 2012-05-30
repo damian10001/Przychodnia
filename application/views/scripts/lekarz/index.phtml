@@ -1,0 +1,10 @@
+<p>Lista lekarzy</p>
+<ul>
+    <?php foreach ($this->lekarze as $lekarz): ?>
+        <li>
+    	<a href="<?php echo $this->url(array('slug' => $lekarz['slug']), 'lekarz_show') ?>">
+		<?php echo $lekarz; ?>
+    	</a>
+        </li>
+    <?php endforeach; ?>
+</ul>
