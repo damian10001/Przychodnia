@@ -3,7 +3,7 @@
 class Application_Model_DbTable_HistoriaChoroby_Row extends Zend_Db_Table_Row {
 
     public function __toString() {
-	return (string) $this->nazwa . ' ' . $this->getPacjent();
+	return (string) $this->nazwa;
     }
 
     function getPacjent() {

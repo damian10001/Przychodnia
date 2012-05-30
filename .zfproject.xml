@@ -24,6 +24,14 @@
           <actionMethod actionName="index"/>
           <actionMethod actionName="show"/>
         </controllerFile>
+        <controllerFile controllerName="HistoriaChoroby">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="show"/>
+        </controllerFile>
+        <controllerFile controllerName="Wizyta">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="show"/>
+        </controllerFile>
       </controllersDirectory>
       <formsDirectory enabled="false"/>
       <layoutsDirectory>
@@ -68,6 +76,18 @@
             <viewScriptFile forActionName="index"/>
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="Pacjent">
+            <viewScriptFile forActionName="show"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="HistoriaChoroby">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Wizyta">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Wizyta">
+            <viewScriptFile forActionName="show"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="HistoriaChoroby">
             <viewScriptFile forActionName="show"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
@@ -116,6 +136,14 @@
             <testApplicationActionMethod forActionName="show"/>
           </testApplicationControllerFile>
           <testApplicationControllerFile forControllerName="Pacjent">
+            <testApplicationActionMethod forActionName="index"/>
+            <testApplicationActionMethod forActionName="show"/>
+          </testApplicationControllerFile>
+          <testApplicationControllerFile forControllerName="HistoriaChoroby">
+            <testApplicationActionMethod forActionName="index"/>
+            <testApplicationActionMethod forActionName="show"/>
+          </testApplicationControllerFile>
+          <testApplicationControllerFile forControllerName="Wizyta">
             <testApplicationActionMethod forActionName="index"/>
             <testApplicationActionMethod forActionName="show"/>
           </testApplicationControllerFile>

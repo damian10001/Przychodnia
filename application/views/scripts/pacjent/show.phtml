@@ -1,4 +1,25 @@
-<br /><br />
-<div id="view-content">
-	<p>View script for controller <b>Pacjent</b> and script/action name <b>show</b></p>
-</div>
+<p>
+    Imię: <?php echo $this->pacjent->imie; ?><br />
+    Nazwisko: <?php echo $this->pacjent->nazwisko; ?><br />
+    Adres: <?php echo $this->pacjent->adres; ?><br />
+    Nr ubezpieczenia: <?php echo $this->pacjent->nr_ubezpieczenia; ?><br />
+    PESEL: <?php echo $this->pacjent->pesel; ?><br />
+    Nr telefonu: <?php echo $this->pacjent->telefon; ?><br />
+    E-mail: <?php echo $this->pacjent->email; ?><br /><br />
+    Wizyty:<br />
+    <?php foreach ($this->pacjent->getWizyty() as $wizyta): ?>
+        <span style="margin-left: 30px;">
+    	<a href="<?php echo $this->url(array('slug' => $wizyta['slug']), 'wizyta_show') ?>">
+		<?php echo $wizyta->data ?>
+    	</a>
+        </span><br />
+    <?php endforeach; ?><br />
+    Przebyte choroby:<br />
+    <?php foreach ($this->pacjent->getHistorieChorob() as $historia): ?>
+        <span style="margin-left: 30px;">
+    	<a href="<?php echo $this->url(array('slug' => $historia['slug']), 'historiachoroby_show') ?>">
+		<?php echo $historia ?>
+    	</a>
+        </span><br />
+    <?php endforeach; ?><br />
+</p>
