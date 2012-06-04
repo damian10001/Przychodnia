@@ -7,6 +7,13 @@ class Application_Model_DbTable_GodzinyPrzyjec_Row extends Zend_Db_Table_Row {
 	return (string) $this->getLekarz() . ' ' . $this->dzien_tygodnia . ' ' .
 		$this->godzina_od . ' ' . $this->godzina_do;
     }
+    
+    public function czasBezSekund($godzina){
+	$czas_bez_sekund = $godzina;
+	$czas_bez_sekund = substr($czas_bez_sekund, 0, strlen($czas_bez_sekund)-3);
+	
+	return $czas_bez_sekund;
+    }
 
     //metoda do ustawiania wartości slug (przyjazne linki)
     public function setSlug($slug) {

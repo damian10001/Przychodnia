@@ -14,6 +14,28 @@
     Adres: <?php echo $this->lekarz->adres; ?><br />
     E-mail: <?php echo $this->lekarz->email; ?><br />
 </p>
+<p>
+    <strong>Godziny przyjęć:</strong>
+</p>
+<table style="border-spacing: 20px 0px;">
+    <thead>
+	<tr>
+	    <th>Dzień tygodnia</th>
+	    <th>Od</th>
+	    <th>Do</th>
+	</tr>
+    </thead>
+    <tbody>
+	<?php foreach ($this->lekarz->getGodzinyPrzyjec() as $godzina): ?>
+    	<tr>
+	    <td><?php echo $godzina->dzien_tygodnia ?></td>
+	    <td><?php echo $godzina->czasBezSekund($godzina->godzina_od) ?></td>
+	    <td><?php echo $godzina->czasBezSekund($godzina->godzina_do) ?></td>
+    	</tr>
+	<?php endforeach; ?>
+    </tbody>
+</table>
+
 <p style="text-align: right;">
     <a href="<?php echo $this->url(array(), 'lekarz_index') ?>">Powrót do listy</a>
 </p>
