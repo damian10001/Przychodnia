@@ -16,6 +16,12 @@ class HistoriaChorobyController extends Zend_Controller_Action
     public function showAction()
     {
         // action body
+	$slug = $this->_request->getParam('slug', 'brak');
+	$HistoriaChoroby = new Application_Model_DbTable_HistoriaChoroby();
+	$this->view->historiaChoroby = $HistoriaChoroby->findOneBySlug($slug);
+	if (!$this->view->historiaChoroby){
+	    throw new Zend_Controller_Action_Exception('Błąd', 404);
+	}
     }
 
 

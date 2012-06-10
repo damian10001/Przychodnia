@@ -5,6 +5,13 @@ class Application_Model_DbTable_Wizyta_Row extends Zend_Db_Table_Row {
     public function __toString() {
 	return (string) $this->data . ' ' . $this->getPacjent();
     }
+    
+    public function czasBezSekund(){
+	$czas_bez_sekund = $this->czas;
+	$czas_bez_sekund = substr($czas_bez_sekund, 0, strlen($czas_bez_sekund)-3);
+	
+	return $czas_bez_sekund;
+    }
 
     function getLekarz() {
 	return $this->findParentRow('Application_Model_DbTable_Lekarz');

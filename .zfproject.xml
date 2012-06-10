@@ -35,6 +35,9 @@
         <controllerFile controllerName="GodzinyPrzyjec">
           <actionMethod actionName="index"/>
         </controllerFile>
+        <controllerFile controllerName="Show">
+          <actionMethod actionName="index"/>
+        </controllerFile>
       </controllersDirectory>
       <formsDirectory enabled="false"/>
       <layoutsDirectory>
@@ -96,6 +99,9 @@
           <viewControllerScriptsDirectory forControllerName="GodzinyPrzyjec">
             <viewScriptFile forActionName="index"/>
           </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Show">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>
         <viewFiltersDirectory enabled="false"/>
@@ -154,6 +160,9 @@
             <testApplicationActionMethod forActionName="show"/>
           </testApplicationControllerFile>
           <testApplicationControllerFile forControllerName="GodzinyPrzyjec">
+            <testApplicationActionMethod forActionName="index"/>
+          </testApplicationControllerFile>
+          <testApplicationControllerFile forControllerName="Show">
             <testApplicationActionMethod forActionName="index"/>
           </testApplicationControllerFile>
         </testApplicationControllerDirectory>

@@ -16,6 +16,12 @@ class WizytaController extends Zend_Controller_Action
     public function showAction()
     {
         // action body
+	$slug = $this->_request->getParam('slug', 'brak');
+	$Wizyta = new Application_Model_DbTable_Wizyta();
+	$this->view->wizyta = $Wizyta->findOneBySlug($slug);
+	if(!$this->view->wizyta){
+	    throw new Zend_Controller_Action_Exception('Błąd', 404);
+	}
     }
 
 

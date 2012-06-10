@@ -28,9 +28,9 @@
     <tbody>
 	<?php foreach ($this->lekarz->getGodzinyPrzyjec() as $godzina): ?>
     	<tr>
-	    <td><?php echo $godzina->dzien_tygodnia ?></td>
-	    <td><?php echo $godzina->czasBezSekund($godzina->godzina_od) ?></td>
-	    <td><?php echo $godzina->czasBezSekund($godzina->godzina_do) ?></td>
+    	    <td><?php echo $godzina->dzien_tygodnia ?></td>
+    	    <td><?php echo $godzina->czasBezSekund($godzina->godzina_od) ?></td>
+    	    <td><?php echo $godzina->czasBezSekund($godzina->godzina_do) ?></td>
     	</tr>
 	<?php endforeach; ?>
     </tbody>

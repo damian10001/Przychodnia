@@ -1,3 +1,11 @@
+<p>
+    <a href="<?php echo $this->url(array(), 'lekarz_index') ?>">
+	<span style="margin-left: 60px;">Lista lekarzy</span>
+    </a>
+    <a href="<?php echo $this->url(array(), 'specjalizacja_index') ?>">
+	<span style="margin-left: 40px;">Lista specjalizacji</span>
+    </a>
+</p>
 <p>Specjalizacje wszystkich lekarzy</p>
 <ul>
     <?php foreach($this->specjalizacja as $specjalizacja): ?>

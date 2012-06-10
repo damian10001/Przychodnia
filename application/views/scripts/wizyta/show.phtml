@@ -1,4 +1,14 @@
-<br /><br />
-<div id="view-content">
-	<p>View script for controller <b>Wizyta</b> and script/action name <b>show</b></p>
-</div>
+<?php $lekarz = $this->wizyta->getLekarz() ?>
+<p>
+    <strong>Szczegóły wizyty</strong><br />
+    <br />
+    Data: <?php echo $this->wizyta->data ?><br />
+    Godzina: <?php echo $this->wizyta->czasBezSekund() ?><br />
+    Lekarz: <a href="<?php echo $this->url(array('slug' => $lekarz['slug']), 'lekarz_show') ?>">
+	<?php echo $lekarz ?>
+    </a><br />
+    Opis wizyty: <?php echo $this->wizyta->opis_wizyty ?><br />
+    Przepisana recepta: <?php echo $this->wizyta->recepta ?><br />
+    Czy wizyta się odbyła: <?php echo $this->wizyta->czy_odbyta ?><br />
+    
+</p>
