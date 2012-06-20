@@ -1,9 +1,15 @@
-<?php $lekarz = $this->wizyta->getLekarz() ?>
+<?php 
+    $lekarz = $this->wizyta->getLekarz();
+    $pacjent = $this->wizyta->getPacjent();
+?>
 <p>
     <strong>Szczegóły wizyty</strong><br />
     <br />
     Data: <?php echo $this->wizyta->data ?><br />
     Godzina: <?php echo $this->wizyta->czasBezSekund() ?><br />
+    Pacjent: <a href="<?php echo $this->url(array('slug' => $pacjent['slug']), 'pacjent_show') ?>">
+	<?php echo $pacjent ?>
+    </a><br />
     Lekarz: <a href="<?php echo $this->url(array('slug' => $lekarz['slug']), 'lekarz_show') ?>">
 	<?php echo $lekarz ?>
     </a><br />
@@ -12,3 +18,6 @@
     Czy wizyta się odbyła: <?php echo $this->wizyta->czy_odbyta ?><br />
     
 </p>
+<!--<p style="text-align: right;">
+    <a href="<?php // echo $this->url(array('slug' => $pacjent['slug']), 'pacjent_show') ?>">Powrót do szczegółów pacjenta</a>
+</p>-->

@@ -1,4 +1,23 @@
-<br /><br />
-<div id="view-content">
-	<p>View script for controller <b>GodzinyPrzyjec</b> and script/action name <b>index</b></p>
-</div>
+<p>Godziny Przyjęć wszystkich lekarzy</p>
+<table style="border-spacing: 20px 0px;">
+    <thead>
+	<tr>
+	    <th>Lekarz</th>
+	    <th>Dzień tygodnia</th>
+	    <th>Od</th>
+	    <th>Do</th>
+	</tr>
+    </thead>
+    <tbody>
+	<?php foreach ($this->godzinyPrzyjec as $godzPrzyj): ?>
+    	<tr>
+	    <td><a href="<?php echo $this->url(array('slug' => $godzPrzyj->getLekarz()->slug), 'lekarz_show') ?>">
+		    <?php echo $godzPrzyj->getLekarz() ?>
+		</a></td>
+    	    <td><?php echo $godzPrzyj->dzien_tygodnia ?></td>
+    	    <td><?php echo $godzPrzyj->czasBezSekund($godzPrzyj->godzina_od) ?></td>
+    	    <td><?php echo $godzPrzyj->czasBezSekund($godzPrzyj->godzina_do) ?></td>
+    	</tr>
+	<?php endforeach; ?>
+    </tbody>
+</table>

@@ -3,7 +3,7 @@
 class Application_Model_DbTable_Pacjent_Row extends Zend_Db_Table_Row {
 
     public function __toString() {
-	return (string) $this->imie . ' ' . $this->nazwisko;
+	return (string) $this->nazwisko . ' ' . $this->imie;
     }
 
     function getHistorieChorob() {

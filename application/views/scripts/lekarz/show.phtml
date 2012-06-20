@@ -35,6 +35,28 @@
 	<?php endforeach; ?>
     </tbody>
 </table>
+<p>
+    <strong>Wizyty:</strong>
+</p>
+<table style="border-spacing: 20px 0px;">
+    <thead>
+	<tr>
+	    <th>Data</th>
+	    <th>Godzina</th>
+	    <th>Czy odbyta</th>
+	</tr>
+    </thead>
+    <tbody>
+	<?php foreach($this->lekarz->getWizyty() as $wizyta): ?>
+	<tr>
+	    <td><?php echo $wizyta->data ?></td>
+	    <td><?php echo $wizyta->czasBezSekund() ?></td>
+	    <td><?php echo $wizyta->czy_odbyta ?></td>
+	    <td><a href="<?php echo $this->url(array('slug' => $wizyta['slug']), 'wizyta_show') ?>">Szczegóły</a></td>
+	</tr>
+	<?php endforeach; ?>
+    </tbody>
+</table>
 
 <p style="text-align: right;">
     <a href="<?php echo $this->url(array(), 'lekarz_index') ?>">Powrót do listy</a>

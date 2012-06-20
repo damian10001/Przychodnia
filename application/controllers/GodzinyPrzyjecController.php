@@ -11,6 +11,8 @@ class GodzinyPrzyjecController extends Zend_Controller_Action
     public function indexAction()
     {
         // action body
+	$GodzinyPrzyjec = new Application_Model_DbTable_GodzinyPrzyjec();
+	$this->view->godzinyPrzyjec = $GodzinyPrzyjec->fetchAll();
     }
 
 

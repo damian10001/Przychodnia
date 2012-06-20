@@ -1,5 +1,6 @@
 <p>
-    Specjalizacja: <?php echo $this->specjalizacja; ?><br />
+    Specjalizacja: <strong><?php echo $this->specjalizacja; ?></strong><br />
+    <br />
     Lekarze posiadający tę specjalizację:<br />
     <?php foreach ($this->specjalizacja->getLekarze() as $lekarz): ?>
         <span style="margin-left: 30px;">
@@ -10,5 +11,5 @@
     <?php endforeach; ?>
 </p>
 <p style="text-align: right;">
-    <a href="<?php echo $this->url(array(), 'specjalizacja_index') ?>">Powrót do listy</a>
+    <a href="<?php echo $this->url(array(), 'specjalizacja_index') ?>">Powrót do listy specjalizacji</a>
 </p>

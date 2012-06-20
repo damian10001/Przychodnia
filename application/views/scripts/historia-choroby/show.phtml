@@ -1,7 +1,13 @@
+<?php 
+    $pacjent = $this->historiaChoroby->getPacjent();
+?>
 <p>
     <strong>Szczegóły przebytej choroby</strong><br />
     <br />
     Data: <?php echo $this->historiaChoroby->data ?><br />
     Nazwa: <?php echo $this->historiaChoroby->nazwa ?><br />
     Opis choroby: <?php echo $this->historiaChoroby->opis_choroby ?><br />
+</p>
+<p style="text-align: right;">
+    <a href="<?php echo $this->url(array('slug' => $pacjent['slug']), 'pacjent_show') ?>">Powrót do szczegółów pacjenta</a>
 </p>
